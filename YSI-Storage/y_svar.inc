@@ -84,6 +84,6 @@ Variables:
 	#include "y_svar/ini"
 #endif
 #if defined YSI_TESTS
-	#include "..\YSI-Core\y_testing"
+	#include "..\YSI_Core\y_testing"
 	#include "y_svar/tests"
 #endif
