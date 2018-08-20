@@ -1,3 +1,40 @@
+# y_svar
+
+`svar` = `server variable`.  This include provides automated saving and loading of global variables simply by declaring them with `svar` instead of `new` (or `static`).
+
+
+[![sampctl](https://shields.southcla.ws/badge/sampctl-y_svar-2f2f2f.svg?style=for-the-badge)](https://github.com/YSI-Storage/y_svar)
+
+## Installation
+
+To install just this one library:
+
+```bash
+sampctl package install YSI-Storage/y_svar
+```
+
+Include in your code and begin using the library:
+
+```pawn
+#include <YSI-Storage/y_svar>
+```
+
+## Documentation
+
+* [Quick Start](YSI-Storage/y_svar/quick-start.md) - One very simple example of getting started with this library.
+* [Features](YSI-Storage/y_svar/features.md) - More features and examples.
+* [FAQs](YSI-Storage/y_svar/faqs.md) - Frequently Asked Questions, including errors and solutions.
+* [API](YSI-Storage/y_svar/api.md) - Full list of all functions and their meaning.
+* [Internal](YSI-Storage/y_svar/internal.md) - Internal developer documentation for the system.
+
+## Testing
+
+To test, simply run the package:
+
+```bash
+sampctl package run
+```
+
 # YSI
 
 ## General Information
@@ -109,34 +146,4 @@ Libraries that have in-game visible effects.
 * [y_races](https://github.com/YSI-Visual/y_races/blob/dev/YSI-Visual/y_races.md)
 * [y_zonenames](https://github.com/YSI-Visual/y_zonenames/blob/dev/YSI-Visual/y_zonenames.md)
 * [y_zonepulse](https://github.com/YSI-Visual/y_zonepulse/blob/dev/YSI-Visual/y_zonepulse.md)
-
-# y_svar
-
-[![sampctl](https://shields.southcla.ws/badge/sampctl-y_svar-2f2f2f.svg?style=for-the-badge)](https://github.com/YSI-Storage/y_svar)
-
-## Installation
-
-To install just this one library:
-
-```bash
-sampctl package install YSI-Storage/y_svar
-```
-
-Include in your code and begin using the library:
-
-```pawn
-#include <YSI-Storage/y_svar>
-```
-
-## Usage
-
-[Click Here] (YSI-Storage/y_svar.md)
-
-## Testing
-
-To test, simply run the package:
-
-```bash
-sampctl package run
-```
 
